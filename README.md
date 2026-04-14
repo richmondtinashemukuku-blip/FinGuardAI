@@ -85,7 +85,7 @@ admin
 ```
 Password:
 ```
-1234
+admin
 ```
 
 ### Manager Credentials
@@ -95,13 +95,13 @@ manager
 ```
 Password: 
 ```
-admin
+1234
 ```
 
 | Role    | Username | Password |
 |--------|----------|----------|
-| Admin   | admin    | 1234     |
-| Manager | manager  | admin    |
+| Admin   | admin    | admin     |
+| Manager | manager  | 1234    |
 
 ---
 

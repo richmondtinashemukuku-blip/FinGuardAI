@@ -89,7 +89,7 @@ button[data-baseweb="tab"] {
 # ===============================
 # 🔐 LOGIN
 # ===============================
-users = {"analyst": "1234", "manager": "admin"}
+users = {"admin": "admin", "manager": "1234"}
 
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
