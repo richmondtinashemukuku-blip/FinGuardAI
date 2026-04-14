@@ -110,7 +110,7 @@ ZWMBGUIDE-AI/
 
 ### 1. Clone the Repository
 ```
-git clone https://github.com/yourusername/fin-guard-ai.git
+git clone https://github.com/richmondtinashemukuku-blip/FinGuardAI.git
 cd fin-guard-ai
 ```
 
