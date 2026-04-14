@@ -65,17 +65,35 @@ Use the following credentials to access the system:
 | Admin   | admin    | 1234     |
 | Manager | manager  | admin    |
 
+### Copyable Credentials
+
+```
+Admin:
+username: admin
+password: 1234
+
+Manager:
+username: manager
+password: admin
+```
+
 ---
 
 ## Project Structure
-FinGuardAI/
+
+```
+ZWMBGUIDE-AI/
 │
 ├── app.py
+├── assets/
+│   └── images/
+│       └── dark_logo.png
 ├── data/
-│ ├── customers.csv
-│ ├── transactions.csv
+│   ├── customers.csv
+│   └── transactions.csv
 ├── requirements.txt
 └── README.md
+```
 
 
 ---
