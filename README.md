@@ -111,7 +111,7 @@ ZWMBGUIDE-AI/
 ### 1. Clone the Repository
 ```
 git clone https://github.com/richmondtinashemukuku-blip/FinGuardAI.git
-cd fin-guard-ai
+cd FinGuardAI
 ```
 
 ### 2. Install Dependencies
