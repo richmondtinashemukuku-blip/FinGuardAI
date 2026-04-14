@@ -55,6 +55,24 @@ The application is built using Python, Streamlit, and Scikit-learn, and is desig
 - Role-based simulation (Admin & Manager)  
 
 ---
+## Installation & Setup
+
+### 1. Clone the Repository
+```
+git clone https://github.com/richmondtinashemukuku-blip/FinGuardAI.git
+cd FinGuardAI
+```
+
+### 2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+### 3. Run the Application
+```
+python -m streamlit run app.py
+```
+---
 
 ## Test Credentials
 
@@ -106,23 +124,6 @@ ZWMBGUIDE-AI/
 
 ---
 
-## Installation & Setup
-
-### 1. Clone the Repository
-```
-git clone https://github.com/richmondtinashemukuku-blip/FinGuardAI.git
-cd FinGuardAI
-```
-
-### 2. Install Dependencies
-```
-pip install -r requirements.txt
-```
-
-### 3. Run the Application
-```
-python -m streamlit run app.py
-```
 
 ## How to Use the System
 1. Login using provided credentials
