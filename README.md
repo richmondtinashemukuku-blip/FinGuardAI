@@ -60,22 +60,30 @@ The application is built using Python, Streamlit, and Scikit-learn, and is desig
 
 Use the following credentials to access the system:
 
+### Admin Credentials
+Username:
+```
+admin
+```
+Password:
+```
+1234
+```
+
+### Manager Credentials
+Username: 
+```
+manager
+```
+Password: 
+```
+admin
+```
+
 | Role    | Username | Password |
 |--------|----------|----------|
 | Admin   | admin    | 1234     |
 | Manager | manager  | admin    |
-
-### Copyable Credentials
-
-```
-Admin:
-username: admin
-password: 1234
-
-Manager:
-username: manager
-password: admin
-```
 
 ---
 
