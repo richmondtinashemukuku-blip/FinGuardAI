@@ -35,12 +35,11 @@ body {
 
 /* Titles */
 h2, h3 {
-    color: #064E3B;
+    color: #064E3B;  /* dark emerald */
 }
-
 .section-title {
     font-size: 22px;
-    color: white;
+    color: #065F46;  /* slightly lighter emerald */
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -117,10 +116,10 @@ if not st.session_state.logged_in:
 # ===============================
 # HEADER
 # ===============================
-st.markdown("""
-<h1><i class="fas fa-chart-line"></i> ZWMBGUIDE-AI</h1>
-<p style='text-align:center; color:white;'>AI Banking Decision Support System</p>
-""", unsafe_allow_html=True)
+st.markdown(
+    "<p style='text-align:center; color:#065F46; font-size:18px;'>AI Banking Decision Support System</p>",
+    unsafe_allow_html=True
+)
 
 st.sidebar.markdown(f"👤 **{st.session_state.role}**")
 
